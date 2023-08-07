@@ -31,7 +31,7 @@ public:
             int mid = (lo + high) >> 1;
 
             int kitne_numbers_missing_hai = (arr[mid] - 1) - (mid);
-            //  means we will ahve to move ahead as we don't have sufficent integers.
+            //  means we will have to move ahead as we don't have sufficent integers.
             if (kitne_numbers_missing_hai < k)
             {
                 lo = mid + 1;
